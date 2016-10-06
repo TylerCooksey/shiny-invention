@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Assignment 2 - TERAOnline</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="author" content="Tyler Cooksey" />
+    <meta name="description" content="MMORPG Game" />
+    <meta name="keywords" content="Assignment2, TERAOnline" />
+
+    <link rel="stylesheet" type="text/css" href="stylefile.css" />
+	
+	<style type="text/css">	
+		h1 {text-align:center; font-size: 30px;}
+		h5 {text-align:center; font-size: 30px;}
+		body {;}
+		h4 {text-align:center;}
+		#content {width: 90%; margin: 0px auto; text-align: right; padding: 5px; border: 5px solid #000; background-color: #eee;}
+		#content2 {width: 90%; margin: 0px auto; text-align: center; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content3 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		#content4 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		#content5 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		#content6 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		#content7 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content8 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content9 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content10 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content11 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content12 {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: black;}
+		#content13 {width: 100%; margin: 0px auto; text-align: center; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		#introductorycontent {width: 90%; margin: 0px auto; text-align: center; padding: 1px; border: 3px solid #000; background-color: black;}
+		#title {width: 20%; margin: 0px auto; text-align: center; padding: 1px; border: 3px solid #000;}
+		#space {width: 90%; margin: 0px auto; padding: 1px; border: 3px solid #000; background-color: #eee;}
+		table, th, td {border: 1px solid black; border-collapse: collapse; text-align: middle;}
+		th, td {padding: 5px; text-align: middle;}
+	</style>
+	<script type="text/javascript">
+	var image1 = new Image()
+	image1.src = "Archer.jpg"
+	var image2 = new Image()
+	image2.src = "berserker.jpg"
+	var image3 = new Image()
+	image3.src = "Lancer.jpg"
+	var image4 = new Image()
+	image4.src = "Mystic.jpg"
+	var image5 = new Image()
+	image5.src = "Slayer.jpg"
+	var image6 = new Image()
+	image6.src = "Sorcerer.jpg"
+	var image7 = new Image()
+	image7.src = "Warrior.jpg"
+	var image8 = new Image()
+	image8.src = "Priest.jpg"
+	var image9 = new Image()
+	image9.src = "Reaper.png"
+	</script>
+</head>
+<body>
+	<font color="red">
+	<div id="title">
+	<h1>TERA</h1>
+	<h5>Fate of Arun</h5>
+	</div>
+	</font>
+	<div id="space">
+	</div>
+	<div id="content">
+	<b>Username:</b>
+	<input type="text" name ="usernamearea" size="30" maxlength="30" style="width:120px"/>
+	<b>Password:</b>
+	<input type="password" name ="passwordarea" size ="30" maxlength="30" style="width:120px"/>
+	<button name ="action" value="send" type="submit" style ="width: 75px"><b>Login</b></button>
+	</div>
+	<div id="space">
+	</div>
+	<div id="content2">
+	<img src="Archer.jpg" name="slide" width=1100" height="400" alt="archer"></img>
+	<script type="text/javascript">
+	var step = 1
+	function slideit(){
+	document.images.slide.src = eval("image" + step + ".src")
+	if(step < 9)
+	step++
+	else
+	step = 1
+	setTimeout("slideit()", 2500)
+	}
+	slideit()
+	</script>
+	</div>
+	<font color="white">
+	<div id="introductorycontent">
+	<p><b>TERA Online is an MMOPRG game which was released in South Korea on
+	on January 25th, 2011, in Japan on August 18th, 2011, in North American
+	on May 1st, 2012, and in Europe on May 3rd, 2012, with closed and open
+	beta testings taking place before the launch dates.</b></p>
+	<p><b>Background too TERA revealed: 
+    About a millennia ago two omnipotent titans Arun and Shara entered into 
+	formless voids and for reasons we can only guess, fell asleep.
+    The titans started to dream. Dream of a world that took form on their 
+	backs known as Tera.
+    The first beings to call Tera home were twelve godlike beings dreamt up 
+	by the titans, but it wasn't long before the gods started fighting.
+    As the dream continued new creatures took place called mortals, they 
+	were less powerful but far more numerous.
+    Arun dreamed of ambitious Elves, clever Humans, honor bound Amani, 
+	powerful Giants, scheming Devas, and mischievous Poporis.
+    Shara dreamed of sly Sikandari, dark Gulas and Vampires, fierce 
+	Wendigos, strange Faeries, and serpentine Nagas.
+    The mortals were forced into the divine wars of the gods, which 
+	eventually left the gods dead, imprisoned, or otherwise diminished.
+    The mortal races didn't escape unscathed. Some-like the Sikandari, 
+	and most of the Giants-were wiped out but others rose from the wars 
+	such as the Barakas and Castanics.
+    Now that the gods were gone the seven races; Amani, Barakas, Castanics, 
+	Elin, High Elves, Humans, and Poporis must band together to fend off a 
+	new enemy.
+    A metallic race from the underworld called Argons; their goal is to take 
+	over Tera and wake the titans to end their dreams and destroy Tera.</b></p></div></font>
+	<font color="#eee">
+	<div id="content7">
+	<h4>Download for Free!</h4>
+	<div id="content13">
+	<button name ="action" value="send" type="submit" style ="width: 100px"><b>Download</b></button>
+	</div>
+	</div>
+	</font>
+	<div id="content8">
+	<font color="#eee">
+	<h2>Home</h2>
+	</div>
+	</font>
+	<div id="content3">
+	<ol style="list-style-type:upper-roman">
+	<li><b>News</b>
+		<ul>
+		<li>WEEKLY MAINTENANCE: 26.03.2015
+		Published: 25.03.2015
+		A weekly maintenance will take place on Thursday March 26th 2015.</li>
+		</ul>
+		<ul>
+		<li>EVENT: FASHION COUPONS!
+		Published: 26.03.2015
+		Whether you're showing heavy duty BAMs who's boss or simply having
+		an idle chat with your favorite trusted broker - we'll be rewarding
+		you for your time online in TERA with Fashion Coupons from Friday, 
+		March 27th until Saturday, March 28th  2015!</li>
+		</ul>
+		<ul>
+		<li>SHOP UPDATE: APRIL SPELLS TROUBLE!
+		Published: 01.04.2015
+		Starting today and only until Tuesday, 7th April 2015 you'll find packets 
+		with Conjurer's and Illusionist's Costumes together with the Flamingo Weapon 
+		Skin in the shop!</li>
+		</ul>
+	</li>
+	</ol>
+	</div>
+	<font color="#eee">
+	<div id="content10">
+	<h2>Server Status</h2>
+	</div>
+	</font>
+	<div id="content4">
+	<p>Please be aware the server maintenance normally 
+	happens once weekly. You can find out on our official 
+	website if a patch is being applied. Visit our archive 
+	for patch notes in order to stay up-to-date with all the 
+	changes in the game.</p>
+	<table style="width:100%">
+		<tr>
+			<th>Status</th>
+			<th>Server</th>
+			<th>Type</th>
+			<th>Population</th>
+			<th>Language</th>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Zenobia</td>
+			<td>PVE</td>
+			<td>Medium</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Veritas</td>
+			<td>PVE</td>
+			<td>Medium</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Fraya</td>
+			<td>PVE</td>
+			<td>High</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Arcadia</td>
+			<td>PVE</td>
+			<td>High</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Icaruna</td>
+			<td>PVP</td>
+			<td>Low</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Killian</td>
+			<td>PVP</td>
+			<td>High</td>
+			<td>EN</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Hasmina</td>
+			<td>PVE</td>
+			<td>High</td>
+			<td>DE</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Kaidun</td>
+			<td>PVE</td>
+			<td>High</td>
+			<td>DE</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Elinu</td>
+			<td>PVE</td>
+			<td>Medium</td>
+			<td>FR</td>
+		</tr>
+		<tr>
+			<td>Active</td>
+			<td>Akasha</td>
+			<td>PVE</td>
+			<td>Medium</td>
+			<td>FR</td>
+		</tr>
+	</table>
+	</div>
+	<font color="#eee">
+	<div id="content11">
+	<h2>Patch Notes</h2>
+	</div>
+	</font>
+	<div id="content5">
+	<ol style="list-style-type:upper-roman">
+	<li><b>Patch Notes 30.11 - Dreadspire</b>
+		<ul>
+		<li>Patch 30.11, to be released on Thursday, 26th March 2015, 
+		will see the new top instance Dreadspire opening its gates. 
+		There you'll find familiar enemies with a greatly increased 
+		difficulty level.
+		Dreadspire
+		The Dreadspire is a 5-player instance of 20 levels, with 
+		dangerous and difficult challenges lurking on every floor.</li> 
+		</ul>
+	</li>
+	<li><b>Patch Notes 30.09 - Flying Fortresses</b>
+		<ul>
+		<li>The patch will be published on Thursday, 26 February 2015 
+		and introduces flying guild keeps that can be conquered and 
+		occupied, updated class skills, and new, improved, and more 
+		difficult dungeons.
+		Honor Halls
+		The biggest new addition is the introduction of the Honor Halls, 
+		which are floating keeps that guilds can conquer and occupy!</li> 
+		</ul>
+	</li>
+	<li><b>Patch Notes 29.03 - Fate of Arun</b>
+		<ul>
+		<li>Patch 29.03, to be released on Thursday, 11th December 2014, 
+		introduces an increased level cap of 65, new skills, four dungeons, 
+		and five zones with quests.
+		Four New Dungeons
+		The following instances are available immediately:
+		Sabex Armory (61)
+		Macellarius Catacombs (64)
+		Ravenous Gorge (65)
+		Bathysmal Rise (65) 
+		Northern Arun - Val Oriyn
+		Northern Arun can now be reached and leads you through thick jungles 
+		and polar landscapes to the forgotten Baraka city of Highwatch as 
+		you progress to level 65.</li> 
+		</ul>
+	</li>
+	<li><b>Patch Notes 28.05 - Dungeon Raiders</b>
+		<ul>
+		<li>This patch features a new system for providing support in dungeons, 
+		changes to the drop rates of certain items, and improved battlegrounds. 
+		It will be released on Tuesday, 26th August 2014.
+		Dungeon Raiders
+		There will be a new entry in the Instance Matching list which allows 
+		the player to register to enter a random dungeon and play low-level 
+		dungeons together with other players.</li> 
+		</ul>
+	</li>
+	<li><b>Patch Notes 27.07 - Arborea is wounded</b>
+		<ul>
+		<li>Patch 27.07 containing four new instances and many other changes 
+		will be released on Thursday, 24th July 2014. Dungeons The new 
+		instances are designed for one to ten players with normal and hard 
+		modes.
+		Ghillieglade (Normal): 1 player
+		Lakan's Prison (Normal): 5 players
+		Rift's Edge (Normal): 10 players
+		Rift's Edge (Hard): 10 players
+		The Abscess (Normal): 7 players
+		The Abscess (Hard): 5 players</li> 
+		</ul>
+	</li>
+	<li><b>Patch Notes 26.04 - The Reaper</b>
+		<ul>
+		<li>The patch with the new Reaper class will be released on Tuesday, 
+		27th May 2014.
+		To be able to create a Reaper, the following criteria must be 
+		fulfilled:
+		You must already have a character of at least Level 40.
+		You must have a free character slot. For this reason we will grant 
+		you an additional character slot for slots 3-12.
+		You will start with your Reaper at Level 50 in your own start area 
+		in Ashen Hope.</li> 
+		</ul>
+	</li>
+	</ol>
+	</div>
+	<font color="#eee">
+	<div id="content12">
+	<h2>FAQ</h2>
+	</div>
+	</font>
+	<div id="content6">
+	<ol style="list-style-type:upper-roman">
+	<li><b>How can I join and manage my TERA Club subscription?</b>
+		<ul>
+		<li>Please log in to your account and click the TERA Shop button 
+		in-game. At the top of the shop, you will find a button for the 
+		TERA Club, click on that button and then on the button to become 
+		a TERA member, this will open your browser and leads you to the 
+		membership page. Choose your favourite way to pay and fill in all 
+		the information that's needed. Enjoy your TERA Club membership! 
+		Please keep in mind that TERA Club membership can only be bought 
+		with real money. We can't accept TERA Thalers for membership. 
+		You can also manage your club membership this way. You can also 
+		manage your club membership through the account management system 
+		on our website now.</li>
+		</ul>
+	</li>
+	<li><b>Where can I find the cash shop in-game and how can I buy something?</b>
+		<ul>
+		<li>After opening the menu, you'll find an additional button for 
+		the shop, which opens a new window in-game. Take your time to 
+		browse the shop to see if you find anything you like. If you 
+		want to buy something from the shop, you need to add TERA 
+		Thalers (TT) to your account. Clicking the "Buy TT" button in the 
+		shop will open your browser with all the info you need. As soon as 
+		the Thalers are added to your account, you can start shopping. Enjoy 
+		your new items!</li>
+		</ul>
+	</li>
+	<li><b>I bought something from the shop. Where can I get my items now?</b>
+		<ul>
+		<li>Open the menu and go to "Activities", then click on "Item Claim". 
+		You will find all the items you bought there.</li>
+		</ul>
+	</li>
+	<li><b>I still have a gametime card. Can I still redeem it?</b>
+		<ul>
+		<li>Yes, you can still redeem those codes. In order to enter a 
+		gametime card code, please go in-game and open the TERA Shop. 
+		Click the TERA Club button at the top to open your browser. You 
+		will be shown different ways to become a member of the TERA Club.
+		Click on "Redeem Code" and enter your gametime code. For the time
+		your gametime card is valid, you will now be a proud member of 
+		the TERA Club.</li>
+		</ul>
+	</li>
+	</ol>
+	</div>
+	<hr />
+	
+	<p style="text-align:right; font-size:9pt">
+	<a href ="http://validator.w3.org/check">WC3 Validator</a>
+	&copy; Copyright 2015	
+	Tylerco Industries. 
+	All rights reserved.
+	</p>
+	
+	<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+	</p>
+	
+</body>
+</html>
