@@ -3,13 +3,6 @@ package comp222;
 import robocode.*;
 import java.awt.Color;
 
-/*
- * Name: Tyler Shane Cooksey
- * Student ID: 201037234
- * University: Liverpool University
- * Degree: Artificial Intelligence
- */
-
 // API help : http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html
 
 /**
